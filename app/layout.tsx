@@ -1,13 +1,6 @@
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
-
-const roboto = Roboto({
-  variable: "--font-helvetica",
-  subsets: ["latin"],
-  weight: ["400", "500", "700"],
-});
 
 export const metadata: Metadata = {
   title: "Weekend Catering - Street Food Catering Services",
@@ -22,7 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable} antialiased`}>
+      <body
+        className="antialiased"
+        style={{ fontFamily: "Helvetica Neue, Arial, sans-serif" }}
+      >
         <Navbar />
         {children}
       </body>
