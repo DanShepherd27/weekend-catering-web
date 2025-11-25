@@ -1,8 +1,9 @@
 "use client";
 
+import { MenuItem } from "@/components/MenuItem/MenuItem";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, Phone } from "lucide-react";
+import { Mail, Menu, Phone } from "lucide-react";
 import Image from "next/image";
 
 export default function HomePageContent() {
@@ -23,7 +24,7 @@ export default function HomePageContent() {
       <a
         href="#contact-form"
         onClick={handleScroll}
-        className="fixed bottom-36 right-1 z-50 bg-white border-[#ff1100] border-2 rounded-full shadow-lg hover:shadow-xl transition-shadow px-8 py-4"
+        className="fixed bottom-52 md:bottom-44 lg:bottom-36 right-1 z-50 bg-white border-[#ff1100] border-2 rounded-full shadow-lg hover:shadow-xl transition-shadow px-8 py-4"
       >
         <p
           className="text-[20px] font-bold text-[#ff1100] uppercase"
@@ -59,74 +60,22 @@ export default function HomePageContent() {
         <div className="max-w-[1400px] mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 lg:gap-8">
             {/* Smash Burger */}
-            <div className="relative h-[300px] md:h-[400px] lg:h-[500px] rounded-[40px] md:rounded-[60px] overflow-hidden shadow-lg">
-              <div className="absolute inset-0 bg-[#ff1100]" />
-              <Image
-                src="/burger.jpg"
-                alt="Smash Burger"
-                fill
-                className="object-cover blur-[5px] opacity-90"
-              />
-              <h3 className="absolute inset-0 flex items-center justify-center text-[28px] md:text-[36px] lg:text-[48px] font-bold text-white uppercase z-10 px-4">
-                Smash Burger
-              </h3>
-            </div>
+            <MenuItem name="Smash Burger" imageUrl="/burger.jpg" />
 
             {/* Pulled Pork */}
-            <div className="relative h-[300px] md:h-[400px] lg:h-[500px] rounded-[40px] md:rounded-[60px] overflow-hidden shadow-lg">
-              <div className="absolute inset-0 bg-[#ff1100]" />
-              <Image
-                src="/pulled-pork.jpg"
-                alt="Pulled Pork"
-                fill
-                className="object-cover blur-[5px] opacity-90"
-              />
-              <h3 className="absolute inset-0 flex items-center justify-center text-[28px] md:text-[36px] lg:text-[48px] font-bold text-white uppercase z-10 px-4">
-                PULLED PORk
-              </h3>
-            </div>
+            <MenuItem name="Pulled Pork" imageUrl="/pulled-pork.jpg" />
 
             {/* BBQ */}
-            <div className="relative h-[300px] md:h-[400px] lg:h-[500px] rounded-[40px] md:rounded-[60px] overflow-hidden shadow-lg">
-              <div className="absolute inset-0 bg-[#ff1100]" />
-              <Image
-                src="/bbq.jpg"
-                alt="BBQ"
-                fill
-                className="object-cover blur-[5px] opacity-90"
-              />
-              <h3 className="absolute inset-0 flex items-center justify-center text-[28px] md:text-[36px] lg:text-[48px] font-bold text-white uppercase z-10 px-4">
-                BBQ
-              </h3>
-            </div>
+            <MenuItem name="BBQ" imageUrl="/bbq.jpg" />
 
             {/* Desszertek */}
-            <div className="relative h-[300px] md:h-[400px] lg:h-[500px] rounded-[40px] md:rounded-[60px] overflow-hidden shadow-lg">
-              <div className="absolute inset-0 bg-[#ff1100]" />
-              <Image
-                src="/desserts.jpg"
-                alt="Desszertek"
-                fill
-                className="object-cover blur-[5px] opacity-90"
-              />
-              <h3 className="absolute inset-0 flex items-center justify-center text-[28px] md:text-[36px] lg:text-[48px] font-bold text-white uppercase text-center z-10 px-4">
-                Desszertek
-              </h3>
-            </div>
+            <MenuItem name="Desszertek" imageUrl="/desserts.jpg" />
 
             {/* Csomagajánlatok */}
-            <div className="relative h-[300px] md:h-[400px] lg:h-[500px] rounded-[40px] md:rounded-[60px] overflow-hidden bg-[#ff1100] shadow-lg">
-              <h3 className="absolute inset-0 flex items-center justify-center text-[28px] md:text-[36px] lg:text-[48px] font-bold text-white uppercase text-center px-4">
-                Csomagajánlatok
-              </h3>
-            </div>
+            <MenuItem name="Csomagajánlatok" />
 
-            {/* Luxory ajánlatkérés cégeknek */}
-            <div className="relative h-[300px] md:h-[400px] lg:h-[500px] rounded-[40px] md:rounded-[60px] overflow-hidden bg-[#ff1100] shadow-lg">
-              <h3 className="absolute inset-0 flex items-center justify-center text-[24px] md:text-[32px] lg:text-[42px] font-bold text-white uppercase text-center px-4 leading-tight">
-                Luxory ajánlatkérés cégeknek
-              </h3>
-            </div>
+            {/* Luxury ajánlatkérés cégeknek */}
+            <MenuItem name="Luxury ajánlatkérés cégeknek" />
           </div>
         </div>
       </section>
@@ -267,6 +216,14 @@ export default function HomePageContent() {
                 alt="Gallery"
                 fill
                 className="object-cover"
+              />{" "}
+              {/* Gradient overlay - tilted 30 degrees to blend with red background */}
+              <div
+                className="absolute inset-0 pointer-events-none"
+                style={{
+                  background:
+                    "linear-gradient(60deg, transparent 40%, #ff1100 80%)",
+                }}
               />
             </div>
             <div className="absolute right-0 top-[-30px] md:top-[-80px] w-[300px] md:w-[500px] h-[280px] md:h-[400px] opacity-80">
@@ -276,9 +233,17 @@ export default function HomePageContent() {
                 fill
                 className="object-cover"
               />
+              {/* Gradient overlay - tilted 30 degrees to blend with red background */}
+              <div
+                className="absolute inset-0 pointer-events-none"
+                style={{
+                  background:
+                    "linear-gradient(270deg, transparent 40%, #ff1100 80%)",
+                }}
+              />
             </div>
             <h2 className="absolute inset-0 flex items-center justify-center text-[32px] md:text-[54px] lg:text-[72px] font-bold text-white uppercase z-10">
-              GAléria
+              Galéria
             </h2>
           </div>
         </div>
