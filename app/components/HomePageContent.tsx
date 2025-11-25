@@ -41,13 +41,13 @@ export default function HomePageContent() {
         <div className="max-w-[1400px] mx-auto">
           <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white text-center">
             <h2
-              className="text-[24px] md:text-[32px] lg:text-[40px] font-bold uppercase mb-4 md:mb-6 leading-tight"
+              className="text-[24px] md:text-[32px] font-bold uppercase mb-4 md:mb-6 leading-tight"
               style={{ textShadow: "0px 4px 4px rgba(123,8,0,0.25)" }}
             >
               Esküvő, Kerti Party, Családi vagy céges rendezvény?
             </h2>
-            <p className="text-[16px] md:text-[20px] lg:text-[24px] font-bold uppercase leading-relaxed">
-              Bármi amire úgy érzed, hogy szeretnél egy jó BBQ-t,
+            <p className="text-[16px] md:text-[20px] font-bold uppercase leading-relaxed">
+              Bármi, amire úgy érzed, hogy szeretnél egy jó BBQ-t,
               <br />
               Smash Burger-t, ezekben mind a segítségedre leszünk!
             </p>
@@ -84,10 +84,10 @@ export default function HomePageContent() {
       <section className="w-full px-4 md:px-8 lg:px-16 py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
           <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
-            <h2 className="text-[24px] md:text-[32px] lg:text-[40px] font-bold uppercase mb-6 md:mb-8">
+            <h2 className="text-[24px] md:text-[32px] font-bold uppercase mb-6 md:mb-8">
               hogy miért válassz minket?
             </h2>
-            <div className="text-[14px] md:text-[18px] lg:text-[22px] font-bold uppercase space-y-2 leading-relaxed">
+            <div className="text-[14px] md:text-[18px] font-bold uppercase space-y-2 leading-relaxed">
               <p>
                 Sok év elteltével esküvőztetésben dolgozva, sok sok, rendezvényt
                 látva
@@ -114,12 +114,12 @@ export default function HomePageContent() {
       <section className="w-full px-4 md:px-8 lg:px-16 py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
           <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
-            <h2 className="text-[24px] md:text-[32px] lg:text-[40px] font-bold uppercase mb-4 md:mb-6">
+            <h2 className="text-[24px] md:text-[32px] font-bold uppercase mb-4 md:mb-6">
               ÜDÍTŐK
             </h2>
-            <div className="text-[14px] md:text-[18px] lg:text-[22px] font-bold uppercase leading-relaxed space-y-1">
+            <div className="text-[14px] md:text-[18px] font-bold uppercase leading-relaxed space-y-1">
               <p>
-                Szeretjük a trendi megoldásokat, ezért üveges üditőitalok
+                Szeretjük a trendi megoldásokat, ezért üveges üdítőitalok
                 választékából
               </p>
               <p>
@@ -135,13 +135,13 @@ export default function HomePageContent() {
       <section className="w-full px-4 md:px-8 lg:px-16 py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
           <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
-            <h2 className="text-[24px] md:text-[32px] lg:text-[40px] font-bold uppercase mb-4 md:mb-6">
-              KOKtélok
+            <h2 className="text-[24px] md:text-[32px] font-bold uppercase mb-4 md:mb-6">
+              Koktélok
             </h2>
-            <div className="text-[14px] md:text-[18px] lg:text-[22px] font-bold uppercase leading-relaxed space-y-1">
+            <div className="text-[14px] md:text-[18px] font-bold uppercase leading-relaxed space-y-1">
               <p>
                 A Koktélbár mint olyan, elkerülhetetlen egy igazán jó
-                hangulatoz,
+                hangulathoz,
               </p>
               <p>
                 Bartender kollégánk előre egyeztetett koktélokkal és
@@ -156,10 +156,10 @@ export default function HomePageContent() {
       <section className="w-full px-4 md:px-8 lg:px-16 py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
           <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
-            <h2 className="text-[24px] md:text-[32px] lg:text-[40px] font-bold uppercase mb-6 md:mb-8">
+            <h2 className="text-[24px] md:text-[32px] font-bold uppercase mb-6 md:mb-8">
               Tedd önazonossá rendezvényed!
             </h2>
-            <div className="text-[14px] md:text-[18px] lg:text-[22px] font-bold uppercase leading-relaxed space-y-2">
+            <div className="text-[14px] md:text-[18px] font-bold uppercase leading-relaxed space-y-2">
               <p>Dedikált poharat szeretnél, amit neked gyártunk le?</p>
               <p>
                 Erre is van lehetőséged. Miért jó? Mert tökéletes arra hogy
@@ -175,12 +175,12 @@ export default function HomePageContent() {
       {/* About Section */}
       <section className="w-full px-4 md:px-8 lg:px-16 py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
-          <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden relative min-h-[300px] md:min-h-[400px]">
+          <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden relative min-h-[300px]">
             <div className="p-6 md:p-12 lg:p-16 text-white relative z-10 md:w-2/3">
-              <h2 className="text-[24px] md:text-[32px] lg:text-[40px] font-bold uppercase mb-6 md:mb-8">
+              <h2 className="text-[24px] md:text-[32px] font-bold uppercase mb-6 md:mb-8">
                 RÓLUNK
               </h2>
-              <div className="text-[14px] md:text-[18px] lg:text-[22px] font-bold uppercase leading-relaxed space-y-2">
+              <div className="text-[14px] md:text-[18px] font-bold uppercase leading-relaxed space-y-2">
                 <p>
                   Vasvári Atty vagyok! Feleségemmel Vasvári Lidivel vágtunk
                   bele,
@@ -209,14 +209,14 @@ export default function HomePageContent() {
       {/* Gallery Section */}
       <section className="w-full px-4 md:px-8 lg:px-16 py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
-          <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden relative h-[200px] md:h-[250px]">
+          <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden relative h-[200px]">
             <div className="absolute left-0 top-[-20px] md:top-[-64px] w-[250px] md:w-[400px] h-[250px] md:h-[388px] opacity-80">
               <Image
                 src="/gallery2.jpg"
                 alt="Gallery"
                 fill
                 className="object-cover"
-              />{" "}
+              />
               {/* Gradient overlay - tilted 30 degrees to blend with red background */}
               <div
                 className="absolute inset-0 pointer-events-none"
@@ -233,7 +233,7 @@ export default function HomePageContent() {
                 fill
                 className="object-cover"
               />
-              {/* Gradient overlay - tilted 30 degrees to blend with red background */}
+              {/* Gradient overlay - tilted 270 degrees to blend with red background */}
               <div
                 className="absolute inset-0 pointer-events-none"
                 style={{
@@ -242,7 +242,7 @@ export default function HomePageContent() {
                 }}
               />
             </div>
-            <h2 className="absolute inset-0 flex items-center justify-center text-[32px] md:text-[54px] lg:text-[72px] font-bold text-white uppercase z-10">
+            <h2 className="absolute inset-0 flex items-center justify-center text-[32px] md:text-[54px] lg:text-[36px] font-bold text-white uppercase z-10">
               Galéria
             </h2>
           </div>
@@ -256,7 +256,7 @@ export default function HomePageContent() {
       >
         <div className="max-w-[1400px] mx-auto">
           <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16">
-            <h2 className="text-[24px] md:text-[32px] lg:text-[40px] font-bold text-white uppercase mb-8 md:mb-12">
+            <h2 className="text-[24px] md:text-[32px] font-bold text-white uppercase mb-8 md:mb-12">
               Ajánlatkérés
             </h2>
 
@@ -266,7 +266,7 @@ export default function HomePageContent() {
                 <Input
                   type="text"
                   placeholder="NÉV"
-                  className="h-[60px] md:h-[80px] lg:h-[100px] text-[16px] md:text-[20px] px-6 md:px-12 rounded-[40px] md:rounded-[60px] border-0 bg-white text-[#ff1100] placeholder:text-[#ff1100] uppercase font-normal"
+                  className="h-[60px] text-[16px] md:text-[20px] px-6 md:px-12 rounded-[40px] md:rounded-[60px] border-0 bg-white text-[#ff1100] placeholder:text-[#ff1100] uppercase font-normal"
                   style={{ fontFamily: "Helvetica Neue, Arial, sans-serif" }}
                 />
               </div>
@@ -277,7 +277,7 @@ export default function HomePageContent() {
                   <Input
                     type="email"
                     placeholder="EMAIL"
-                    className="h-[60px] md:h-[80px] lg:h-[100px] text-[16px] md:text-[20px] px-6 md:px-12 rounded-[40px] md:rounded-[60px] border-0 bg-white text-[#ff1100] placeholder:text-[#ff1100] uppercase font-normal"
+                    className="h-[60px] text-[16px] md:text-[20px] px-6 md:px-12 rounded-[40px] md:rounded-[60px] border-0 bg-white text-[#ff1100] placeholder:text-[#ff1100] uppercase font-normal"
                     style={{ fontFamily: "Helvetica Neue, Arial, sans-serif" }}
                   />
                 </div>
@@ -285,7 +285,7 @@ export default function HomePageContent() {
                   <Input
                     type="tel"
                     placeholder="Telefonszám"
-                    className="h-[60px] md:h-[80px] lg:h-[100px] text-[16px] md:text-[20px] px-6 md:px-12 rounded-[40px] md:rounded-[60px] border-0 bg-white text-[#ff1100] placeholder:text-[#ff1100] uppercase font-normal"
+                    className="h-[60px] text-[16px] md:text-[20px] px-6 md:px-12 rounded-[40px] md:rounded-[60px] border-0 bg-white text-[#ff1100] placeholder:text-[#ff1100] uppercase font-normal"
                     style={{ fontFamily: "Helvetica Neue, Arial, sans-serif" }}
                   />
                 </div>
@@ -295,7 +295,7 @@ export default function HomePageContent() {
               <div className="bg-white rounded-[40px] md:rounded-[60px] shadow-lg overflow-hidden">
                 <Textarea
                   placeholder="rendezvény jellege"
-                  className="h-[200px] md:h-[300px] lg:h-[400px] text-[16px] md:text-[20px] px-6 md:px-12 py-6 md:py-12 rounded-[40px] md:rounded-[60px] border-0 bg-white text-[#ff1100] placeholder:text-[#ff1100] uppercase resize-none font-normal"
+                  className="h-[200px] md:h-[300px] text-[16px] md:text-[20px] px-6 md:px-12 py-6 md:py-12 rounded-[40px] md:rounded-[60px] border-0 bg-white text-[#ff1100] placeholder:text-[#ff1100] uppercase resize-none font-normal"
                   style={{ fontFamily: "Helvetica Neue, Arial, sans-serif" }}
                 />
               </div>
@@ -307,7 +307,7 @@ export default function HomePageContent() {
                   className="bg-white border-[#ff1100] border-2 rounded-[40px] md:rounded-[60px] shadow-lg px-8 md:px-16 py-4 md:py-6 hover:shadow-xl transition-shadow"
                 >
                   <p
-                    className="text-[18px] md:text-[24px] lg:text-[28px] font-bold text-[#ff1100] uppercase"
+                    className="text-[18px] md:text-[22px] font-bold text-[#ff1100] uppercase"
                     style={{
                       fontFamily: "Helvetica Neue, Arial, sans-serif",
                     }}

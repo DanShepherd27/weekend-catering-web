@@ -8,7 +8,7 @@ export function MenuItem({
   imageUrl?: string;
 }) {
   return (
-    <div className="relative h-[300px] md:h-[400px] lg:h-[500px] rounded-[40px] md:rounded-[60px] overflow-hidden shadow-lg">
+    <div className="relative h-[200px] md:h-[300px] rounded-[40px] md:rounded-[60px] overflow-hidden shadow-lg">
       <div className="absolute inset-0 bg-[#ff1100]" />
       {imageUrl && (
         <Image
@@ -18,7 +18,7 @@ export function MenuItem({
           className="object-cover blur-[5px] opacity-90"
         />
       )}
-      <h3 className="absolute inset-0 flex items-center justify-center text-[28px] md:text-[36px] lg:text-[48px] font-bold text-white uppercase text-center leading-tight z-10 px-4">
+      <h3 className="absolute inset-0 flex items-center justify-center text-[28px] md:text-[36px] font-bold text-white uppercase text-center leading-tight z-10 px-4">
         {name}
       </h3>
     </div>
