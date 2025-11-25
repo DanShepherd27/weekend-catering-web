@@ -4,9 +4,9 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="sticky top-0 z-50 pt-4 md:pt-6 lg:pt-8 pb-2 md:pb-3 lg:pb-4 px-4">
-      <div className="bg-[#ff1100] rounded-[40px] md:rounded-[60px] lg:rounded-[75px] shadow-lg overflow-hidden relative h-[80px] md:h-[60px] lg:h-[60px]">
-        <div className="container mx-auto px-4 md:px-8 h-full flex items-center justify-between relative">
+    <nav className="sticky top-0 z-50 pt-4 md:pt-6 lg:pt-8 pb-2 md:pb-3 lg:pb-4 px-4 flex justify-center">
+      <div className="bg-[#ff1100] rounded-[40px] md:rounded-[60px] lg:rounded-[75px] shadow-lg overflow-hidden relative h-[80px] md:h-[60px] lg:h-[60px] max-w-[1400px] w-full">
+        <div className="px-4 md:px-8 h-full flex items-center justify-between relative">
           {/* Decorative logo image on the left */}
           <div className="absolute left-0 top-0 w-[150px] md:w-[200px] lg:w-[290px] h-full z-10">
             <div className="relative w-full h-full">
