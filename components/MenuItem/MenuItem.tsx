@@ -3,12 +3,17 @@ import Image from "next/image";
 export function MenuItem({
   name,
   imageUrl,
+  handleClick,
 }: {
   name: string;
   imageUrl?: string;
+  handleClick?: () => void;
 }) {
   return (
-    <div className="relative h-[200px] md:h-[300px] rounded-[40px] md:rounded-[60px] overflow-hidden shadow-lg">
+    <div
+      className="relative h-[200px] md:h-[300px] rounded-[40px] md:rounded-[60px] overflow-hidden shadow-lg cursor-pointer"
+      onClick={handleClick}
+    >
       <div className="absolute inset-0 bg-[#ff1100]" />
       {imageUrl && (
         <Image
