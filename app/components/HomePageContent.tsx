@@ -171,12 +171,12 @@ export default function HomePageContent() {
                 <p>az örömöt és az elégedettségét.</p>
               </div>
             </div>
-            <div className="absolute right-0 top-0 w-[40%] h-full overflow-hidden hidden md:block">
+            <div className="absolute right-[-80px] top-0 w-[60%] h-full overflow-hidden">
               <Image
                 src="/about.jpg"
                 alt="About"
                 fill
-                className="object-cover"
+                className="object-contain object-bottom"
               />
             </div>
           </div>
