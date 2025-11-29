@@ -56,7 +56,7 @@ const Navbar = () => {
                 alt="Weekend Catering Logo"
                 width={32}
                 height={32}
-                className="w-[32px] h-[32px] md:w-[32px] md:h-[32px] lg:w-[32px] lg:h-[32px]"
+                className="w-[64px] h-[64px] md:w-[45px] md:h-[45px] lg:w-[45px] lg:h-[45px]"
               />
             </div>
           </div>
