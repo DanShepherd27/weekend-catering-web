@@ -33,15 +33,13 @@ const Navbar = () => {
           {/* Main branding - centered */}
           <div className="flex-1 flex justify-center items-center relative z-20">
             <Link href="/" className="relative">
-              <h1
-                className="text-[28px] md:text-[28px] lg:text-[28px] xl:text-[28px] font-bold text-white uppercase tracking-tight whitespace-nowrap"
-                style={{
-                  fontFamily: "Helvetica Neue, Arial, sans-serif",
-                  lineHeight: "normal",
-                }}
-              >
-                Weekend Catering
-              </h1>
+              <Image
+                src="/weekend-catering-title.svg"
+                alt="Weekend Catering"
+                width={976}
+                height={136}
+                className="w-[200px] md:w-[400px] lg:w-[300px] h-auto"
+              />
             </Link>
           </div>
 
