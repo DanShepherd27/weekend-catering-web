@@ -33,7 +33,7 @@ export default function HomePageContent() {
       {/* Menu Items Grid */}
       <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6 lg:gap-8">
             {/* Smash Burger */}
             <MenuItem name="Smash Burger" imageUrl="/burger.jpg" />
 

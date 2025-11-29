@@ -23,7 +23,7 @@ export default function RootLayout({
         className="antialiased"
         style={{ fontFamily: "Helvetica Neue, Arial, sans-serif" }}
       >
-        <div className="m-auto max-w-[90dvw] md:max-w-[80dvw] lg:max-w-[70dvw]">
+        <div className="m-auto max-w-[90dvw] xs:max-w-[80dvw] md:max-w-[75dvw] lg:max-w-[70dvw]">
           <Navbar />
           {children}
         </div>
