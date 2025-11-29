@@ -122,3 +122,14 @@
       Arial, sans-serif;
   }
 }
+
+/* Altcha widget styling - must use CSS variables for Shadow DOM */
+altcha-widget {
+  --altcha-max-width: 100%;
+  accent-color: #ff1100;
+}
+
+/* Global accent color override for all checkboxes */
+* {
+  accent-color: #ff1100;
+}

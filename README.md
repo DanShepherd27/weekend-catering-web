@@ -14,15 +14,28 @@ cp .env.example .env.local
 
 #### SMTP Email Configuration
 
+**Important:** `EMAIL_FROM` must be a valid email address that can send mail. It should typically match your `SMTP_USER` to avoid delivery issues.
+
 ```env
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 SMTP_SECURE=false
-SMTP_USER=your-email@example.com
+SMTP_USER=your-email@gmail.com
 SMTP_PASSWORD=your-app-password
-EMAIL_FROM=your-email@example.com
+
+# IMPORTANT: Use a real email that can SEND mail (usually same as SMTP_USER)
+# Do NOT use domains with null MX records like webform@yourwebsite.com
+EMAIL_FROM=your-email@gmail.com
+
+# Where to receive contact form submissions
 EMAIL_TO=owner-email@example.com
 ```
+
+**For Gmail:**
+
+1. Enable 2-factor authentication on your Google account
+2. Generate an [App Password](https://myaccount.google.com/apppasswords)
+3. Use the App Password as `SMTP_PASSWORD`
 
 #### Altcha HMAC Key (CAPTCHA)
 

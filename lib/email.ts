@@ -98,12 +98,23 @@ export async function sendContactEmails(data: EmailData) {
   const customerResult = results[0];
   const ownerResult = results[1];
 
+  // Log any failures
+  if (customerResult.status === "rejected") {
+    console.error("Customer email failed:", customerResult.reason);
+  }
+  if (ownerResult.status === "rejected") {
+    console.error("Owner notification failed:", ownerResult.reason);
+  }
+
+  // Consider it a success if at least the owner notification was sent
+  // (customer confirmation is nice-to-have)
+  const ownerSuccess =
+    ownerResult.status === "fulfilled" && ownerResult.value.success;
+
   return {
     customerEmail:
       customerResult.status === "fulfilled" ? customerResult.value : null,
     ownerEmail: ownerResult.status === "fulfilled" ? ownerResult.value : null,
-    success:
-      customerResult.status === "fulfilled" &&
-      ownerResult.status === "fulfilled",
+    success: ownerSuccess, // Main requirement is that owner gets notified
   };
 }
