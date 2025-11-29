@@ -35,22 +35,37 @@ export default function HomePageContent() {
         <div className="max-w-[1400px] mx-auto">
           <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6 lg:gap-8">
             {/* Smash Burger */}
-            <MenuItem name="Smash Burger" imageUrl="/burger.jpg" />
+            <MenuItem
+              name="Smash Burger"
+              imageUrl="/burger.jpg"
+              href="/smash-burger"
+            />
 
             {/* Pulled Pork */}
-            <MenuItem name="Pulled Pork" imageUrl="/pulled-pork.jpg" />
+            <MenuItem
+              name="Pulled Pork"
+              imageUrl="/pulled-pork.jpg"
+              href="/pulled-pork"
+            />
 
             {/* BBQ */}
-            <MenuItem name="BBQ" imageUrl="/bbq.jpg" />
+            <MenuItem name="BBQ" imageUrl="/bbq.jpg" href="/bbq" />
 
             {/* Desszertek */}
-            <MenuItem name="Desszertek" imageUrl="/desserts.jpg" />
+            <MenuItem
+              name="Desszertek"
+              imageUrl="/desserts.jpg"
+              href="/desszertek"
+            />
 
             {/* Csomagajánlatok */}
-            <MenuItem name="Csomagajánlatok" />
+            <MenuItem name="Csomagajánlatok" href="/csomagajanlatok" />
 
             {/* Luxury ajánlatkérés cégeknek */}
-            <MenuItem name="Luxury ajánlatkérés cégeknek" />
+            <MenuItem
+              name="Luxury ajánlatkérés cégeknek"
+              href="/luxury-ajanlat"
+            />
           </div>
         </div>
       </section>
@@ -191,42 +206,60 @@ export default function HomePageContent() {
               fontFamily: "Helvetica Neue, Arial, sans-serif",
             }}
           >
-            <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden relative h-[200px]">
-              <div className="absolute left-0 top-[-20px] md:top-[-64px] w-[250px] md:w-[400px] h-[250px] md:h-[388px] opacity-80">
+            <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden relative min-h-[200px] md:min-h-[240px]">
+              <div className="absolute left-0 top-0 w-1/2 h-full z-0 rounded-l-[40px] md:rounded-l-[75px] overflow-hidden">
                 <Image
                   src="/gallery2.jpg"
                   alt="Gallery"
-                  fill
-                  className="object-cover"
-                />
-                {/* Gradient overlay - tilted 30 degrees to blend with red background */}
-                <div
-                  className="absolute inset-0 pointer-events-none"
-                  style={{
-                    background:
-                      "linear-gradient(60deg, transparent 40%, #ff1100 80%)",
-                  }}
+                  width={1200}
+                  height={1600}
+                  className="object-cover w-full h-[120%] scale-110 translate-y-[-8%] md:translate-y-[-6%] opacity-90"
                 />
               </div>
-              <div className="absolute right-0 top-[-30px] md:top-[-80px] w-[300px] md:w-[500px] h-[280px] md:h-[400px] opacity-80">
+              <div className="absolute right-0 top-0 w-1/2 h-full z-0 rounded-r-[40px] md:rounded-r-[75px] overflow-hidden">
                 <Image
                   src="/gallery1.jpg"
                   alt="Gallery"
-                  fill
-                  className="object-cover"
-                />
-                {/* Gradient overlay - tilted 270 degrees to blend with red background */}
-                <div
-                  className="absolute inset-0 pointer-events-none"
-                  style={{
-                    background:
-                      "linear-gradient(270deg, transparent 40%, #ff1100 80%)",
-                  }}
+                  width={1200}
+                  height={1600}
+                  className="object-cover w-full h-[120%] scale-110 translate-y-[-8%] md:translate-y-[-6%] opacity-90"
                 />
               </div>
-              <h2 className="absolute inset-0 flex items-center justify-center text-[32px] md:text-[54px] lg:text-[36px] font-bold text-white uppercase z-10">
-                Galéria
-              </h2>
+              <div className="absolute inset-0 flex items-center justify-center z-20">
+                {/* Flexbox container to align gradients with h2 - increased height to cover gaps from skewing */}
+                <div
+                  className="flex items-center justify-center"
+                  style={{ transform: "skewY(-5deg)" }}
+                >
+                  {/* Left gradient - narrower on small screens to keep images visible, skewed with container */}
+                  <div
+                    className="w-[80px] sm:w-[120px] md:w-[120px] lg:w-[200px] xl:w-[320px] h-[280px] md:h-[360px] pointer-events-none"
+                    style={{
+                      background:
+                        "linear-gradient(90deg, transparent 0%, transparent 40%, #ff1100 100%)",
+                    }}
+                  />
+
+                  {/* Centered headline - skewed container with counter-skewed text to keep it upright */}
+                  <div className="bg-[#ff1100] px-4 md:px-12 h-[280px] md:h-[280px] flex items-center justify-center -mx-[2px]">
+                    <h2
+                      className="text-[24px] md:text-[28px] lg:text-[36px] font-bold text-white uppercase whitespace-nowrap"
+                      style={{ transform: "skewY(5deg)" }}
+                    >
+                      {"Galéria"}
+                    </h2>
+                  </div>
+
+                  {/* Right gradient - narrower on small screens to keep images visible, skewed with container */}
+                  <div
+                    className="w-[80px] sm:w-[120px] md:w-[120px] lg:w-[200px] xl:w-[280px] h-[280px] md:h-[360px] pointer-events-none"
+                    style={{
+                      background:
+                        "linear-gradient(270deg, transparent 0%, transparent 40%, #ff1100 100%)",
+                    }}
+                  />
+                </div>
+              </div>
             </div>
           </Link>
         </div>
