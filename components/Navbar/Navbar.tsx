@@ -48,18 +48,16 @@ const Navbar = () => {
           {/* Navigation Links */}
           <div className="absolute right-16 md:right-20 flex items-center gap-4 md:gap-6 z-20"></div>
 
-          {/* W logo on the right */}
+          {/* Logo on the right */}
           <div className="absolute right-4 md:right-8 flex items-center z-20">
             <div className="relative">
-              <p
-                className="text-[32px] md:text-[32px] lg:text-[32px] font-bold text-white uppercase"
-                style={{
-                  fontFamily: "Helvetica Neue, Arial, sans-serif",
-                  lineHeight: "normal",
-                }}
-              >
-                W
-              </p>
+              <Image
+                src="/logo.svg"
+                alt="Weekend Catering Logo"
+                width={32}
+                height={32}
+                className="w-[32px] h-[32px] md:w-[32px] md:h-[32px] lg:w-[32px] lg:h-[32px]"
+              />
             </div>
           </div>
         </div>

@@ -22,12 +22,12 @@ export function InquiryFloater() {
     <a
       href="#contact-form"
       onClick={handleScroll}
-      className={`fixed bottom-52 md:bottom-44 lg:bottom-36 right-1 z-50 bg-white border-[#ff1100] border-2 rounded-full shadow-lg hover:shadow-xl transition-shadow px-8 py-4 ${
+      className={`fixed bottom-36 md:bottom-40 lg:bottom-36 right-1 z-50 bg-white border-[#ff1100] border-2 rounded-full shadow-lg hover:shadow-xl transition-shadow px-8 py-4 ${
         pathname === "/kapcsolat" ? "hidden" : ""
       }`}
     >
       <p
-        className="text-[20px] font-bold text-[#ff1100] uppercase"
+        className="text-[14px] md:text-[20px] font-bold text-[#ff1100] uppercase"
         style={{
           fontFamily: "Helvetica Neue, Arial, sans-serif",
         }}

@@ -2,12 +2,14 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import { Footer } from "@/components/Footer/Footer";
-import { InquiryFloater } from "@/components/InquiryFloater/InquiryFloater";
 
 export const metadata: Metadata = {
   title: "Weekend Catering - Street Food Catering Services",
   description:
     "Professional catering services specializing in BBQ, Smash Burgers, and more for events",
+  icons: {
+    icon: "/logo-black.svg",
+  },
 };
 
 export default function RootLayout({
@@ -21,14 +23,12 @@ export default function RootLayout({
         className="antialiased"
         style={{ fontFamily: "Helvetica Neue, Arial, sans-serif" }}
       >
-        <InquiryFloater />
         <div className="m-auto max-w-[90dvw] md:max-w-[80dvw] lg:max-w-[70dvw]">
           <Navbar />
           {children}
         </div>
+        <Footer />
       </body>
-
-      <Footer />
     </html>
   );
 }

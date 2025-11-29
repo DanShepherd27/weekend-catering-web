@@ -1,10 +1,12 @@
 import { Mail, Phone } from "lucide-react";
 import Image from "next/image";
+import { InquiryFloater } from "../InquiryFloater/InquiryFloater";
 
 export function Footer() {
   /* Sticky Contact Information Section at Bottom */
   return (
-    <section className="fixed bottom-0 left-0 right-0 z-40 bg-white border-t-2 border-[#ff1100] shadow-[0_-4px_20px_0px_rgba(0,0,0,0.15)]">
+    <footer className="fixed bottom-0 left-0 right-0 z-40 bg-white border-t-2 border-[#ff1100] shadow-[0_-4px_20px_0px_rgba(0,0,0,0.15)]">
+      <InquiryFloater />
       <div className="max-w-[1400px] mx-auto px-4 md:px-8 py-4 md:py-4">
         <h2
           className="text-[20px] md:text-[24px] font-bold text-[#ff1100] uppercase mb-4 text-center md:text-left"
@@ -64,6 +66,6 @@ export function Footer() {
           </div>
         </div>
       </div>
-    </section>
+    </footer>
   );
 }
