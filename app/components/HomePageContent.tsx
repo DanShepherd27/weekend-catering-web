@@ -2,8 +2,6 @@
 
 import { ContactForm } from "@/components/ContactForm/ContactForm";
 import { MenuItem } from "@/components/MenuItem/MenuItem";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -14,7 +12,7 @@ export default function HomePageContent() {
       style={{ fontFamily: "Helvetica Neue, Arial, sans-serif" }}
     >
       {/* Party Types Section */}
-      <section className="w-full px-4 md:px-8 lg:px-16 py-6 md:py-8">
+      <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
           <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white text-center">
             <h2
@@ -33,7 +31,7 @@ export default function HomePageContent() {
       </section>
 
       {/* Menu Items Grid */}
-      <section className="w-full px-4 md:px-8 lg:px-16 py-6 md:py-8">
+      <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 lg:gap-8">
             {/* Smash Burger */}
@@ -58,7 +56,7 @@ export default function HomePageContent() {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="w-full px-4 md:px-8 lg:px-16 py-6 md:py-8">
+      <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
           <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
             <h2 className="text-[24px] md:text-[32px] font-bold uppercase mb-6 md:mb-8">
@@ -88,7 +86,7 @@ export default function HomePageContent() {
       </section>
 
       {/* Üdítők Section */}
-      <section className="w-full px-4 md:px-8 lg:px-16 py-6 md:py-8">
+      <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
           <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
             <h2 className="text-[24px] md:text-[32px] font-bold uppercase mb-4 md:mb-6">
@@ -109,7 +107,7 @@ export default function HomePageContent() {
       </section>
 
       {/* Koktélok Section */}
-      <section className="w-full px-4 md:px-8 lg:px-16 py-6 md:py-8">
+      <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
           <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
             <h2 className="text-[24px] md:text-[32px] font-bold uppercase mb-4 md:mb-6">
@@ -130,7 +128,7 @@ export default function HomePageContent() {
       </section>
 
       {/* Personalization Section */}
-      <section className="w-full px-4 md:px-8 lg:px-16 py-6 md:py-8">
+      <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
           <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
             <h2 className="text-[24px] md:text-[32px] font-bold uppercase mb-6 md:mb-8">
@@ -150,7 +148,7 @@ export default function HomePageContent() {
       </section>
 
       {/* About Section */}
-      <section className="w-full px-4 md:px-8 lg:px-16 py-6 md:py-8">
+      <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
           <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden relative min-h-[300px]">
             <div className="p-6 md:p-12 lg:p-16 text-white relative z-10 md:w-2/3">
@@ -184,7 +182,7 @@ export default function HomePageContent() {
       </section>
 
       {/* Gallery Section */}
-      <section className="w-full px-4 md:px-8 lg:px-16 py-6 md:py-8">
+      <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
           <Link
             href="/galeria"

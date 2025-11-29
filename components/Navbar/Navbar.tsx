@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <nav className="sticky top-0 z-50 pt-2 pb-2 md:pb-3 lg:pb-4 px-4 flex justify-center">
+    <nav className="sticky top-0 z-50 pt-2 pb-2 md:pb-3 lg:pb-4 flex justify-center">
       <div
         className="bg-[#ff1100] rounded-[40px] md:rounded-[60px] lg:rounded-[75px] shadow-lg overflow-hidden relative h-[80px] md:h-[60px] lg:h-[60px] max-w-[1400px] w-full"
         style={{ boxShadow: "0 8px 16px rgba(0, 0, 0, 0.2)" }}

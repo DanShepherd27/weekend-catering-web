@@ -21,9 +21,11 @@ export default function RootLayout({
         className="antialiased"
         style={{ fontFamily: "Helvetica Neue, Arial, sans-serif" }}
       >
-        <Navbar />
         <InquiryFloater />
-        {children}
+        <div className="m-auto max-w-[90dvw] md:max-w-[80dvw] lg:max-w-[70dvw]">
+          <Navbar />
+          {children}
+        </div>
       </body>
 
       <Footer />
