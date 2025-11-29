@@ -3,7 +3,8 @@
 import { Input } from "../ui/input";
 import { Textarea } from "../ui/textarea";
 import { submitContactForm } from "@/app/actions/contact";
-import { useState, useTransition } from "react";
+import { useState, useTransition, useEffect, useRef } from "react";
+import "altcha";
 
 export function ContactForm() {
   const [isPending, startTransition] = useTransition();
@@ -11,6 +12,25 @@ export function ContactForm() {
     type: "success" | "error";
     text: string;
   } | null>(null);
+  const [altchaPayload, setAltchaPayload] = useState<string>("");
+  const altchaRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const handleStateChange = (ev: Event) => {
+      const customEvent = ev as CustomEvent;
+      if (customEvent.detail?.payload) {
+        setAltchaPayload(customEvent.detail.payload);
+      }
+    };
+
+    const widget = altchaRef.current;
+    if (widget) {
+      widget.addEventListener("statechange", handleStateChange);
+      return () => {
+        widget.removeEventListener("statechange", handleStateChange);
+      };
+    }
+  }, []);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -22,6 +42,7 @@ export function ContactForm() {
       email: formData.get("email") as string,
       phone: formData.get("phone") as string,
       message: formData.get("message") as string,
+      altchaPayload: altchaPayload,
     };
 
     startTransition(async () => {
@@ -29,8 +50,13 @@ export function ContactForm() {
 
       if (result.success) {
         setMessage({ type: "success", text: result.message || "" });
-        // Reset form
+        // Reset form and Altcha
         (e.target as HTMLFormElement).reset();
+        setAltchaPayload("");
+        if (altchaRef.current) {
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          (altchaRef.current as any).reset();
+        }
       } else {
         setMessage({ type: "error", text: result.error || "" });
       }
@@ -109,11 +135,24 @@ export function ContactForm() {
               />
             </div>
 
+            {/* Altcha Widget */}
+            <div className="flex justify-center">
+              <altcha-widget
+                // eslint-disable-next-line @typescript-eslint/no-explicit-any
+                ref={altchaRef as any}
+                challengeurl="/api/altcha/challenge"
+                hidefooter
+                style={{
+                  "--altcha-max-width": "100%",
+                }}
+              />
+            </div>
+
             {/* Submit Button */}
             <div className="flex justify-center lg:justify-end pt-2">
               <button
                 type="submit"
-                disabled={isPending}
+                disabled={isPending || !altchaPayload}
                 className="bg-white border-[#ff1100] border-2 rounded-[20px] md:rounded-[30px] shadow-lg px-4 md:px-8 py-2 md:py-3 hover:shadow-xl transition-shadow disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 <p

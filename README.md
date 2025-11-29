@@ -2,6 +2,44 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+### Environment Setup
+
+1. Copy `.env.example` to `.env.local`:
+
+```bash
+cp .env.example .env.local
+```
+
+2. Configure your environment variables:
+
+#### SMTP Email Configuration
+
+```env
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_SECURE=false
+SMTP_USER=your-email@example.com
+SMTP_PASSWORD=your-app-password
+EMAIL_FROM=your-email@example.com
+EMAIL_TO=owner-email@example.com
+```
+
+#### Altcha HMAC Key (CAPTCHA)
+
+Generate a secure HMAC key for Altcha:
+
+```bash
+node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+```
+
+Add the generated key to your `.env.local`:
+
+```env
+ALTCHA_HMAC_KEY=your-generated-key-here
+```
+
+### Running the Development Server
+
 First, run the development server:
 
 ```bash

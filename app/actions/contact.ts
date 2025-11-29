@@ -1,16 +1,34 @@
 "use server";
 
 import { sendContactEmails } from "@/lib/email";
+import { verifyAltchaSolution } from "./altcha";
 
 export interface ContactFormData {
   name: string;
   email: string;
   phone: string;
   message: string;
+  altchaPayload?: string;
 }
 
 export async function submitContactForm(data: ContactFormData) {
   try {
+    // Verify Altcha challenge first
+    if (!data.altchaPayload) {
+      return {
+        success: false,
+        error: "Kérjük, töltse ki a CAPTCHA ellenőrzést.",
+      };
+    }
+
+    const altchaVerification = await verifyAltchaSolution(data.altchaPayload);
+    if (!altchaVerification.success) {
+      return {
+        success: false,
+        error: "CAPTCHA ellenőrzés sikertelen. Kérjük, próbálja újra.",
+      };
+    }
+
     // Validate the data
     if (!data.name || !data.email || !data.phone || !data.message) {
       return {

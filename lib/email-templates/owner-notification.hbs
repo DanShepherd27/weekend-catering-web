@@ -41,12 +41,15 @@
       <div class="details">
         <div class="detail-row">
           <span class="detail-label">👤 Név</span>
-          <span class="detail-value">{{name}}</span>
+          <span
+            class="detail-value"
+            style="text-transform: none;"
+          >{{name}}</span>
         </div>
 
         <div class="detail-row">
           <span class="detail-label">📧 Email cím</span>
-          <span class="detail-value"><a
+          <span class="detail-value" style="text-transform: none;"><a
               href="mailto:{{email}}"
               style="color: #ff1100; text-decoration: none;"
             >{{email}}</a></span>
@@ -54,7 +57,7 @@
 
         <div class="detail-row">
           <span class="detail-label">📱 Telefonszám</span>
-          <span class="detail-value"><a
+          <span class="detail-value" style="text-transform: none;"><a
               href="tel:{{phone}}"
               style="color: #ff1100; text-decoration: none;"
             >{{phone}}</a></span>
@@ -62,7 +65,10 @@
 
         <div class="detail-row">
           <span class="detail-label">💬 Üzenet</span>
-          <div class="message-box">{{message}}</div>
+          <div
+            class="message-box"
+            style="text-transform: none;"
+          >{{message}}</div>
         </div>
       </div>
 
