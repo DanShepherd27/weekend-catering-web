@@ -1,5 +1,5 @@
 import HomePageContent from "./components/HomePageContent";
 
-export default function Home() {
+export default async function Home() {
   return <HomePageContent />;
 }

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
+import { Footer } from "@/components/Footer/Footer";
+import { InquiryFloater } from "@/components/InquiryFloater/InquiryFloater";
 
 export const metadata: Metadata = {
   title: "Weekend Catering - Street Food Catering Services",
@@ -20,8 +22,11 @@ export default function RootLayout({
         style={{ fontFamily: "Helvetica Neue, Arial, sans-serif" }}
       >
         <Navbar />
+        <InquiryFloater />
         {children}
       </body>
+
+      <Footer />
     </html>
   );
 }

@@ -45,6 +45,9 @@ const Navbar = () => {
             </Link>
           </div>
 
+          {/* Navigation Links */}
+          <div className="absolute right-16 md:right-20 flex items-center gap-4 md:gap-6 z-20"></div>
+
           {/* W logo on the right */}
           <div className="absolute right-4 md:right-8 flex items-center z-20">
             <div className="relative">
