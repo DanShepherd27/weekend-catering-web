@@ -23,7 +23,7 @@ export default function PulledPorkPage() {
       {/* MI IS EZ PONTOSAN? Section */}
       <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
-          <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
+          <div className="bg-[#ff1100] rounded-[20px] md:rounded-[37px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
             <h2 className="text-[24px] md:text-[32px] lg:text-[40px] font-bold uppercase mb-6 md:mb-8 leading-tight">
               MI IS EZ PONTOSAN?
             </h2>
@@ -53,7 +53,7 @@ export default function PulledPorkPage() {
       {/* KISÉRŐ KÖRETEK Section */}
       <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
-          <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
+          <div className="bg-[#ff1100] rounded-[20px] md:rounded-[37px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
             <h2 className="text-[24px] md:text-[32px] lg:text-[40px] font-bold uppercase mb-4 md:mb-6 leading-tight">
               KISÉRŐ KÖRETEK
             </h2>
@@ -67,7 +67,7 @@ export default function PulledPorkPage() {
       {/* SALÁTA Section */}
       <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
-          <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
+          <div className="bg-[#ff1100] rounded-[20px] md:rounded-[37px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
             <h2 className="text-[24px] md:text-[32px] lg:text-[40px] font-bold uppercase mb-4 md:mb-6 leading-tight">
               SALÁTA
             </h2>
@@ -81,7 +81,7 @@ export default function PulledPorkPage() {
       {/* SZÓSZOK Section */}
       <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
-          <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
+          <div className="bg-[#ff1100] rounded-[20px] md:rounded-[37px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
             <h2 className="text-[24px] md:text-[32px] lg:text-[40px] font-bold uppercase mb-4 md:mb-6 leading-tight">
               SZÓSZOK
             </h2>

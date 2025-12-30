@@ -24,9 +24,9 @@ export default function CsomagajanlatokPage() {
       {/* Texas Package */}
       <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
-          <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden relative min-h-[200px]">
+          <div className="bg-[#ff1100] rounded-[20px] md:rounded-[37px] shadow-lg overflow-hidden relative min-h-[200px]">
             {/* Image on the right with gradient overlay */}
-            <div className="absolute right-0 top-0 w-[35%] h-full z-0 rounded-r-[40px] md:rounded-r-[75px] overflow-hidden">
+            <div className="absolute right-0 top-0 w-[35%] h-full z-0 rounded-r-[20px] md:rounded-r-[37px] overflow-hidden">
               <Image
                 src="/texas-package.jpg"
                 alt="Texas BBQ"
@@ -67,9 +67,9 @@ export default function CsomagajanlatokPage() {
       {/* Oklahoma Package */}
       <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
-          <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden relative min-h-[240px]">
+          <div className="bg-[#ff1100] rounded-[20px] md:rounded-[37px] shadow-lg overflow-hidden relative min-h-[240px]">
             {/* Image on the right with gradient overlay */}
-            <div className="absolute right-0 top-0 w-[35%] h-full z-0 rounded-r-[40px] md:rounded-r-[75px] overflow-hidden">
+            <div className="absolute right-0 top-0 w-[35%] h-full z-0 rounded-r-[20px] md:rounded-r-[37px] overflow-hidden">
               <Image
                 src="/oklahoma-package.jpg"
                 alt="Oklahoma BBQ"
@@ -111,9 +111,9 @@ export default function CsomagajanlatokPage() {
       {/* All American Package */}
       <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
-          <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden relative min-h-[240px]">
+          <div className="bg-[#ff1100] rounded-[20px] md:rounded-[37px] shadow-lg overflow-hidden relative min-h-[240px]">
             {/* Image on the right with gradient overlay */}
-            <div className="absolute right-0 top-0 w-[35%] h-full z-0 rounded-r-[40px] md:rounded-r-[75px] overflow-hidden">
+            <div className="absolute right-0 top-0 w-[35%] h-full z-0 rounded-r-[20px] md:rounded-r-[37px] overflow-hidden">
               <Image
                 src="/all-american-package.jpg"
                 alt="All American BBQ"
