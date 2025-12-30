@@ -27,7 +27,7 @@ export default function DesszertekPage() {
             <div className="text-[18px] md:text-[26px] lg:text-[32px] font-bold uppercase space-y-2 leading-tight">
               <p>Pisztáciás Tiramisu</p>
               <p>Muffin</p>
-              <p>Epres Pohárkrém kekszel</p>
+              <p>Epres Pohárkrém keksszel</p>
               <p>grillezett ananász vanília fagyival</p>
             </div>
           </div>
