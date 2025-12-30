@@ -9,7 +9,12 @@ export const metadata: Metadata = {
   description:
     "Professional catering services specializing in BBQ, Smash Burgers, and more for events",
   icons: {
-    icon: "/logo-black.svg",
+    // Use a proper favicon (favicon.ico) for broadest browser support.
+    // Provide apple touch icon and a safari pinned tab mask for Safari/iOS.
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+    other: [{ rel: "mask-icon", url: "/logo-mask.svg", color: "#ff1100" }],
   },
 };
 
