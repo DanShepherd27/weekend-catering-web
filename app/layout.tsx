@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
     apple: "/apple-touch-icon.png",
-    other: [{ rel: "mask-icon", url: "/logo-red.svg", color: "#ff1100" }],
+    other: [{ rel: "mask-icon", url: "/logo-mask.svg", color: "#ff1100" }],
   },
 };
 
