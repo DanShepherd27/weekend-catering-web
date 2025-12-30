@@ -14,7 +14,7 @@ export default function HomePageContent() {
       {/* Party Types Section */}
       <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
-          <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white text-center">
+          <div className="bg-[#ff1100] rounded-[20px] md:rounded-[37px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white text-center">
             <h2
               className="text-[24px] md:text-[32px] font-bold uppercase mb-4 md:mb-6 leading-tight"
               style={{ textShadow: "0px 4px 4px rgba(123,8,0,0.25)" }}
@@ -73,7 +73,7 @@ export default function HomePageContent() {
       {/* Why Choose Us Section */}
       <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
-          <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
+          <div className="bg-[#ff1100] rounded-[20px] md:rounded-[37px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
             <h2 className="text-[24px] md:text-[32px] font-bold uppercase mb-6 md:mb-8">
               hogy miért válassz minket?
             </h2>
@@ -103,7 +103,7 @@ export default function HomePageContent() {
       {/* Üdítők Section */}
       <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
-          <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
+          <div className="bg-[#ff1100] rounded-[20px] md:rounded-[37px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
             <h2 className="text-[24px] md:text-[32px] font-bold uppercase mb-4 md:mb-6">
               ÜDÍTŐK
             </h2>
@@ -124,7 +124,7 @@ export default function HomePageContent() {
       {/* Koktélok Section */}
       <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
-          <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
+          <div className="bg-[#ff1100] rounded-[20px] md:rounded-[37px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
             <h2 className="text-[24px] md:text-[32px] font-bold uppercase mb-4 md:mb-6">
               Koktélok
             </h2>
@@ -145,7 +145,7 @@ export default function HomePageContent() {
       {/* Personalization Section */}
       <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
-          <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
+          <div className="bg-[#ff1100] rounded-[20px] md:rounded-[37px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
             <h2 className="text-[24px] md:text-[32px] font-bold uppercase mb-6 md:mb-8">
               Tedd önazonossá rendezvényed!
             </h2>
@@ -165,7 +165,7 @@ export default function HomePageContent() {
       {/* About Section */}
       <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
-          <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden relative min-h-[300px]">
+          <div className="bg-[#ff1100] rounded-[20px] md:rounded-[37px] shadow-lg overflow-hidden relative min-h-[300px]">
             <div className="p-6 md:p-12 lg:p-16 text-white relative z-10 md:w-2/3">
               <h2 className="text-[24px] md:text-[32px] font-bold uppercase mb-6 md:mb-8">
                 RÓLUNK
@@ -206,8 +206,8 @@ export default function HomePageContent() {
               fontFamily: "Helvetica Neue, Arial, sans-serif",
             }}
           >
-            <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden relative min-h-[200px] md:min-h-[240px]">
-              <div className="absolute left-0 top-0 w-1/2 h-full z-0 rounded-l-[40px] md:rounded-l-[75px] overflow-hidden">
+            <div className="bg-[#ff1100] rounded-[20px] md:rounded-[37px] shadow-lg overflow-hidden relative min-h-[200px] md:min-h-[240px]">
+              <div className="absolute left-0 top-0 w-1/2 h-full z-0 rounded-l-[20px] md:rounded-l-[37px] overflow-hidden">
                 <Image
                   src="/gallery2.jpg"
                   alt="Gallery"
@@ -216,7 +216,7 @@ export default function HomePageContent() {
                   className="object-cover w-full h-[120%] scale-110 translate-y-[-8%] md:translate-y-[-6%] opacity-90"
                 />
               </div>
-              <div className="absolute right-0 top-0 w-1/2 h-full z-0 rounded-r-[40px] md:rounded-r-[75px] overflow-hidden">
+              <div className="absolute right-0 top-0 w-1/2 h-full z-0 rounded-r-[20px] md:rounded-r-[37px] overflow-hidden">
                 <Image
                   src="/gallery1.jpg"
                   alt="Gallery"

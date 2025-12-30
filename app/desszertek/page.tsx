@@ -23,11 +23,11 @@ export default function DesszertekPage() {
       {/* Dessert List Section */}
       <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
-          <div className="bg-[#ff1100] rounded-[40px] md:rounded-[75px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
+          <div className="bg-[#ff1100] rounded-[20px] md:rounded-[37px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
             <div className="text-[18px] md:text-[26px] lg:text-[32px] font-bold uppercase space-y-2 leading-tight">
               <p>Pisztáciás Tiramisu</p>
               <p>Muffin</p>
-              <p>Epres Pohárkrém kekszel</p>
+              <p>Epres Pohárkrém keksszel</p>
               <p>grillezett ananász vanília fagyival</p>
             </div>
           </div>
