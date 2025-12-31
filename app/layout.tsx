@@ -5,9 +5,9 @@ import { Footer } from "@/components/Footer/Footer";
 import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
-  title: "Weekend Catering - Street Food Catering Services",
+  title: "Weekend Catering - Street Food Catering Szolgáltatások",
   description:
-    "Professional catering services specializing in BBQ, Smash Burgers, and more for events",
+    "Professzionális catering szolgáltatások BBQ-val, smash burgerekkel és még sok mással rendezvényekre",
   icons: {
     // Use a proper favicon (favicon.ico) for broadest browser support.
     // Provide apple touch icon and a safari pinned tab mask for Safari/iOS.
