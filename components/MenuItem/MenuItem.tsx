@@ -21,7 +21,7 @@ export function MenuItem({
             src={imageUrl}
             alt={name}
             fill
-            className="object-cover opacity-100" // blur-[3px]
+            className="object-cover opacity-100 blur-[3px]"
           />
         </div>
       )}
