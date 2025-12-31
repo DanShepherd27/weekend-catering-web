@@ -37,7 +37,7 @@ export default function HomePageContent() {
             {/* Smash Burger */}
             <MenuItem
               name="Smash Burger"
-              imageUrl="/thumbnails/EDN04532.png"
+              imageUrl="/thumbnails/EDN04532.webp"
               href="/smash-burger"
             />
 
@@ -54,21 +54,21 @@ export default function HomePageContent() {
             {/* Desszertek */}
             <MenuItem
               name="Desszertek"
-              imageUrl="/thumbnails/EDN03464.png"
+              imageUrl="/thumbnails/EDN03464.webp"
               href="/desszertek"
             />
 
             {/* Csomagajánlatok */}
             <MenuItem
               name="Csomagajánlatok"
-              imageUrl="/thumbnails/EDN04163.png"
+              imageUrl="/thumbnails/EDN04163.webp"
               href="/csomagajanlatok"
             />
 
             {/* Luxury ajánlatkérés cégeknek */}
             <MenuItem
               name="Luxury ajánlatkérés cégeknek"
-              imageUrl="/thumbnails/EDN03501.png"
+              imageUrl="/thumbnails/EDN03501.webp"
               href="/luxury-ajanlat"
             />
           </div>
