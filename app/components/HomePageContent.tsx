@@ -44,35 +44,31 @@ export default function HomePageContent() {
             {/* Pulled Pork */}
             <MenuItem
               name="Pulled Pork"
-              imageUrl="/thumbnails/EDN04163.webp"
+              imageUrl="/thumbnails/pulled_pork.webp"
               href="/pulled-pork"
             />
 
             {/* BBQ */}
-            <MenuItem
-              name="BBQ"
-              imageUrl="/thumbnails/EDN03898.webp"
-              href="/bbq"
-            />
+            <MenuItem name="BBQ" imageUrl="/thumbnails/bbq.webp" href="/bbq" />
 
             {/* Desszertek */}
             <MenuItem
               name="Desszertek"
-              imageUrl="/thumbnails/EDN03464.webp"
+              imageUrl="/thumbnails/desserts.webp"
               href="/desszertek"
             />
 
             {/* Csomagajánlatok */}
             <MenuItem
               name="Csomagajánlatok"
-              imageUrl="/thumbnails/EDN03903.webp"
+              imageUrl="/thumbnails/package_deals.webp"
               href="/csomagajanlatok"
             />
 
             {/* Luxury ajánlatkérés cégeknek */}
             <MenuItem
               name="Luxury ajánlatkérés cégeknek"
-              imageUrl="/thumbnails/EDN03501.webp"
+              imageUrl="/thumbnails/luxury.webp"
               href="/luxury-ajanlat"
             />
           </div>
