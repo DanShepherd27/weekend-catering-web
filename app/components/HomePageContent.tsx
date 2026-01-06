@@ -37,7 +37,7 @@ export default function HomePageContent() {
             {/* Smash Burger */}
             <MenuItem
               name="Smash Burger"
-              imageUrl="/thumbnails/EDN04532.webp"
+              imageUrl="/thumbnails/smash_burger.webp"
               href="/smash-burger"
             />
 
