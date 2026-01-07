@@ -29,22 +29,13 @@ export default function PulledPorkPage() {
             </h2>
             <div className="text-[14px] md:text-[18px] lg:text-[22px] font-bold uppercase space-y-2 leading-relaxed">
               <p>
-                Sok év elteltével esküvőztetésben dolgozva, sok sok, rendezvényt
-                látva
+                24 ÓRÁN ÁT KÉSZÍTETT, FÜSTÖN SÜLT MALAC TÉPEtt HÚS, AMI SZÓ
+                SZERINT ÚSZIK A HÁZI BBQ SZÓSZBAN ÉS A SAJÁT SZAFTJÁBAN. HOSSZÚ
+                IDEIG, LASSAN KÉSZÜL, HOGY MINDEN FALATBAN ÉREZHETŐ LEGYEN AZ A
+                MÉLY, FÜSTÖS, ÉDESEN FŰSZERES ÍZVILÁG, AMI AZ IGAZI AMERIKAI BBQ
+                LEGMAGASABB SZINTJE. PUHA, SZAFTOS, ÉS EGYENESEN ELOLVAD A
+                SZÁDBAN.
               </p>
-              <p>
-                és lebonyolítva, tudom, hogy neked is széleskörű szolgáltatást
-                tudunk nyújtani.
-              </p>
-              <p>Hiszünk a minőségben és abban hogy a kevesebb néha több.</p>
-              <p>
-                Ezért nyújtunk olyan szolgáltatást, ahol fókuszáltan tudunk a
-                rendezvényeteken,
-              </p>
-              <p>
-                egy kifejezett Street Food ételt a lehető legmagasabb minőségben
-              </p>
-              <p>elkészíteni számotokra.</p>
             </div>
           </div>
         </div>
@@ -88,8 +79,16 @@ export default function PulledPorkPage() {
             <div className="text-[14px] md:text-[18px] lg:text-[20px] font-bold uppercase leading-relaxed space-y-1">
               <p>TÖBB KÉZMŰVES SZÓSZUNKBÓL IS VÁLOGATHATTOK (3 választható)</p>
               <p>
-                FÜSTÖS BBQ, WHISKYS BBQ, SZILVÁS BBQ, CLASSIC BBQ, MAJONÉZ,
-                BACONÉZ, FÜSTÖS MAJONÉZ, CHEDDAR
+                <ul className="list-disc list-inside">
+                  <li>FÜSTÖS BBQ</li>
+                  <li>WHISKYS BBQ</li>
+                  <li>SZILVÁS BBQ</li>
+                  <li>CLASSIC BBQ</li>
+                  <li>MAJONÉZ</li>
+                  <li>BACONÉZ</li>
+                  <li>FÜSTÖS MAJONÉZ</li>
+                  <li>CHEDDAR</li>
+                </ul>
               </p>
             </div>
           </div>

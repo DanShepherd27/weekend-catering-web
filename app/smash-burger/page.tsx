@@ -74,8 +74,16 @@ export default function SmashBurgerPage() {
             <div className="text-[14px] md:text-[18px] lg:text-[20px] font-bold uppercase leading-relaxed space-y-1">
               <p>TÖBB KÉZMŰVES SZÓSZUNKBÓL IS VÁLOGATHATTOK (3 választható)</p>
               <p>
-                FÜSTÖS BBQ, WHISKYS BBQ, SZILVÁS BBQ, CLASSIC BBQ, MAJONÉZ,
-                BACONÉZ, FÜSTÖS MAJONÉZ, CHEDDAR
+                <ul className="list-disc list-inside">
+                  <li>FÜSTÖS BBQ</li>
+                  <li>WHISKYS BBQ</li>
+                  <li>SZILVÁS BBQ</li>
+                  <li>CLASSIC BBQ</li>
+                  <li>MAJONÉZ</li>
+                  <li>BACONÉZ</li>
+                  <li>FÜSTÖS MAJONÉZ</li>
+                  <li>CHEDDAR</li>
+                </ul>
               </p>
             </div>
           </div>
