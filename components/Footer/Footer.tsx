@@ -18,7 +18,10 @@ export function Footer() {
         </h2>
         <div className="flex flex-wrap justify-center lg:justify-between gap-4">
           <div className="flex items-center gap-3 justify-center">
-            <Phone className="w-[12px] h-[12px] md:w-[14px] md:h-[14px] text-[#ff1100] flex-shrink-0" />
+            <Phone
+              className="w-[12px] h-[12px] md:w-[14px] md:h-[14px] text-[#ff1100] flex-shrink-0"
+              fill="#ff1100"
+            />
             <a
               href="tel:+36703948800"
               className="text-[12px] md:text-[14px] font-medium text-[#ff1100] uppercase hover:underline"
@@ -53,6 +56,35 @@ export function Footer() {
               style={{ fontFamily: "Helvetica Neue, Arial, sans-serif" }}
             >
               weekendcatering_BBQ
+            </a>
+          </div>
+          <div className="flex items-center gap-3 justify-center">
+            <Image
+              src="/facebook-alt.svg"
+              alt="Facebook"
+              width={14}
+              height={14}
+              className="w-[12px] h-[12px] md:w-[14px] md:h-[14px] flex-shrink-0"
+            />
+            <a
+              href="https://www.facebook.com/profile.php?id=61582006615536"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[12px] md:text-[14px] font-medium text-[#ff1100] uppercase hover:underline"
+              style={{ fontFamily: "Helvetica Neue, Arial, sans-serif" }}
+            >
+              weekendcatering_BBQ
+            </a>
+          </div>
+          <div className="flex items-center justify-center">
+            <a
+              href="/DOKUMENTUM-WEBOLDAL.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[12px] md:text-[14px] font-medium text-[#ff1100] uppercase hover:underline"
+              style={{ fontFamily: "Helvetica Neue, Arial, sans-serif" }}
+            >
+              ÁSZF
             </a>
           </div>
           <div className="flex items-center justify-center">
