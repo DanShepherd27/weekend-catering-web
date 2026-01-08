@@ -1,7 +1,13 @@
 "use client";
 import { usePathname, useRouter } from "next/navigation";
 
-export function InquiryFloater() {
+interface InquiryFloaterProps {
+  isFooterExpanded?: boolean;
+}
+
+export function InquiryFloater({
+  isFooterExpanded = false,
+}: InquiryFloaterProps) {
   const router = useRouter();
   const pathname = usePathname();
 
@@ -15,6 +21,16 @@ export function InquiryFloater() {
     }
   };
 
+  // Calculate bottom position: 30px above footer
+  // Collapsed footer is roughly 80px, expanded is roughly 200px on mobile, always ~140px on desktop
+  const getBottomPosition = () => {
+    // On mobile (< sm breakpoint)
+    if (isFooterExpanded) {
+      return "bottom-[230px]"; // 200px footer + 30px gap
+    }
+    return "bottom-[110px]"; // 80px footer + 30px gap
+  };
+
   {
     /* Floating Ajánlatkérés Button */
   }
@@ -22,7 +38,7 @@ export function InquiryFloater() {
     <a
       href="#contact-form"
       onClick={handleScroll}
-      className={`fixed bottom-36 md:bottom-40 lg:bottom-36 right-1 z-50 bg-white border-[#ff1100] border-2 rounded-full shadow-lg hover:shadow-xl transition-shadow px-8 py-4 ${
+      className={`fixed ${getBottomPosition()} sm:bottom-[170px] right-1 z-50 bg-white border-[#ff1100] border-2 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 px-8 py-4 ${
         pathname === "/kapcsolat" ? "hidden" : ""
       }`}
     >
