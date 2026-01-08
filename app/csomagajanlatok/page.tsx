@@ -35,12 +35,20 @@ export default function CsomagajanlatokPage() {
                 className="object-cover w-full h-full"
               />
             </div>
-            {/* Gradient overlay from left (red) to transparent */}
+            {/* Gradient overlay from left (red) to transparent - covers left edge of image */}
             <div
-              className="absolute right-0 top-0 w-[40%] h-full z-10 pointer-events-none"
+              className="absolute left-[62%] top-0 w-[15%] h-full z-10 pointer-events-none"
               style={{
                 background:
-                  "linear-gradient(90deg, #ff1100 0%, rgba(255, 17, 0, 0.7) 30%, transparent 100%)",
+                  "linear-gradient(90deg, #ff1100 0%, #ff1100 20%, rgba(255, 17, 0, 0.9) 50%, rgba(255, 17, 0, 0.6) 70%, transparent 100%)",
+              }}
+            />
+            {/* Gradient overlay from left (red) to transparent - wider coverage */}
+            <div
+              className="absolute right-0 top-0 w-[50%] h-full z-10 pointer-events-none"
+              style={{
+                background:
+                  "linear-gradient(90deg, #ff1100 0%, rgba(255, 17, 0, 0.95) 15%, rgba(255, 17, 0, 0.7) 35%, rgba(255, 17, 0, 0.3) 60%, transparent 100%)",
               }}
             />
             {/* Content */}
@@ -78,12 +86,20 @@ export default function CsomagajanlatokPage() {
                 className="object-cover w-full h-full"
               />
             </div>
-            {/* Gradient overlay from left (red) to transparent */}
+            {/* Gradient overlay from left (red) to transparent - covers left edge of image */}
             <div
-              className="absolute right-0 top-0 w-[40%] h-full z-10 pointer-events-none"
+              className="absolute left-[62%] top-0 w-[15%] h-full z-10 pointer-events-none"
               style={{
                 background:
-                  "linear-gradient(90deg, #ff1100 0%, rgba(255, 17, 0, 0.7) 30%, transparent 100%)",
+                  "linear-gradient(90deg, #ff1100 0%, #ff1100 20%, rgba(255, 17, 0, 0.9) 50%, rgba(255, 17, 0, 0.6) 70%, transparent 100%)",
+              }}
+            />
+            {/* Gradient overlay from left (red) to transparent - wider coverage */}
+            <div
+              className="absolute right-0 top-0 w-[50%] h-full z-10 pointer-events-none"
+              style={{
+                background:
+                  "linear-gradient(90deg, #ff1100 0%, rgba(255, 17, 0, 0.95) 15%, rgba(255, 17, 0, 0.7) 35%, rgba(255, 17, 0, 0.3) 60%, transparent 100%)",
               }}
             />
             {/* Content */}
@@ -122,12 +138,20 @@ export default function CsomagajanlatokPage() {
                 className="object-cover w-full h-full"
               />
             </div>
-            {/* Gradient overlay from left (red) to transparent */}
+            {/* Gradient overlay from left (red) to transparent - covers left edge of image */}
             <div
-              className="absolute right-0 top-0 w-[40%] h-full z-10 pointer-events-none"
+              className="absolute left-[62%] top-0 w-[15%] h-full z-10 pointer-events-none"
               style={{
                 background:
-                  "linear-gradient(90deg, #ff1100 0%, rgba(255, 17, 0, 0.7) 30%, transparent 100%)",
+                  "linear-gradient(90deg, #ff1100 0%, #ff1100 20%, rgba(255, 17, 0, 0.9) 50%, rgba(255, 17, 0, 0.6) 70%, transparent 100%)",
+              }}
+            />
+            {/* Gradient overlay from left (red) to transparent - wider coverage */}
+            <div
+              className="absolute right-0 top-0 w-[50%] h-full z-10 pointer-events-none"
+              style={{
+                background:
+                  "linear-gradient(90deg, #ff1100 0%, rgba(255, 17, 0, 0.95) 15%, rgba(255, 17, 0, 0.7) 35%, rgba(255, 17, 0, 0.3) 60%, transparent 100%)",
               }}
             />
             {/* Content */}
