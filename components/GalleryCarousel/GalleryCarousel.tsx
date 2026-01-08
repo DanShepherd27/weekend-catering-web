@@ -62,7 +62,7 @@ export function GalleryCarousel({
       {/* Close Button */}
       <button
         onClick={onClose}
-        className="absolute top-4 right-4 z-50 text-white hover:text-gray-300 transition-colors"
+        className="absolute top-4 right-4 z-50 text-white hover:text-gray-300 transition-colors cursor-pointer"
         aria-label="Close gallery"
       >
         <X className="w-8 h-8 md:w-10 md:h-10" />
@@ -71,7 +71,7 @@ export function GalleryCarousel({
       {/* Previous Button */}
       <button
         onClick={handlePrevious}
-        className="absolute left-4 top-1/2 -translate-y-1/2 z-50 text-white hover:text-gray-300 transition-colors"
+        className="absolute left-4 top-1/2 -translate-y-1/2 z-50 text-white hover:text-gray-300 transition-colors cursor-pointer"
         aria-label="Previous image"
       >
         <ChevronLeft className="w-10 h-10 md:w-12 md:h-12" />
@@ -80,7 +80,7 @@ export function GalleryCarousel({
       {/* Next Button */}
       <button
         onClick={handleNext}
-        className="absolute right-4 top-1/2 -translate-y-1/2 z-50 text-white hover:text-gray-300 transition-colors"
+        className="absolute right-4 top-1/2 -translate-y-1/2 z-50 text-white hover:text-gray-300 transition-colors cursor-pointer"
         aria-label="Next image"
       >
         <ChevronRight className="w-10 h-10 md:w-12 md:h-12" />
