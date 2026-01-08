@@ -109,10 +109,10 @@ export function Footer() {
                 className="text-[12px] md:text-[14px] font-medium text-[#ff1100] uppercase hover:underline"
                 style={{ fontFamily: "Helvetica Neue, Arial, sans-serif" }}
               >
-                ÁSZF
+                ÁSZF & IMPRESSZUM
               </a>
             </div>
-            <div className="flex items-center justify-center">
+            {/* <div className="flex items-center justify-center">
               <a
                 href="#top"
                 className="text-[12px] md:text-[14px] font-medium text-[#ff1100] uppercase"
@@ -120,7 +120,7 @@ export function Footer() {
               >
                 weekend catering
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
