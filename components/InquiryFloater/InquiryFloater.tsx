@@ -38,7 +38,7 @@ export function InquiryFloater({
     <a
       href="#contact-form"
       onClick={handleScroll}
-      className={`fixed ${getBottomPosition()} sm:bottom-[170px] right-1 z-50 bg-white border-[#ff1100] border-2 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 px-8 py-4 ${
+      className={`fixed ${getBottomPosition()} sm:bottom-[170px] right-1 z-50 bg-white border-[#ff1100] border-2 rounded-tl-full rounded-bl-full rounded-tr-full shadow-lg hover:shadow-xl transition-all duration-300 px-8 py-4 ${
         pathname === "/kapcsolat" ? "hidden" : ""
       }`}
     >
