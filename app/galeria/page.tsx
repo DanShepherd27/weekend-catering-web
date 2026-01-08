@@ -1,6 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 import { getGalleryImages } from "@/lib/gallery";
+import { GalleryGrid } from "./components/GalleryGrid";
 
 export default function GaleriaPage() {
   const galleryImages = getGalleryImages();
@@ -15,22 +15,7 @@ export default function GaleriaPage() {
       <main className="min-h-screen pt-[20px] md:pt-[30px] lg:pt-[40px] pb-[120px]">
         {/* Gallery Grid */}
         <div className="max-w-[600] md:max-w-[1400px] mx-auto px-4 md:px-8 lg:px-16">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-10">
-            {images.map((image, index) => (
-              <div
-                key={index}
-                className="relative aspect-[3/2] overflow-hidden group cursor-pointer"
-              >
-                <Image
-                  src={image.src}
-                  alt={image.alt}
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-110"
-                  sizes="(max-width: 768px) 50vw, (max-width: 1200px) 30vw, 25vw"
-                />
-              </div>
-            ))}
-          </div>
+          <GalleryGrid images={images} />
         </div>
 
         {/* Back to Home Link */}
