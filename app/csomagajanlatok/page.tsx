@@ -28,7 +28,7 @@ export default function CsomagajanlatokPage() {
             {/* Image on the right with gradient overlay */}
             <div className="absolute right-0 top-0 w-[35%] h-full z-0 rounded-r-[20px] md:rounded-r-[37px] overflow-hidden">
               <Image
-                src="/texas-package.jpg"
+                src="/package-deals/EDN04169.webp"
                 alt="Texas BBQ"
                 width={600}
                 height={400}
@@ -79,7 +79,7 @@ export default function CsomagajanlatokPage() {
             {/* Image on the right with gradient overlay */}
             <div className="absolute right-0 top-0 w-[35%] h-full z-0 rounded-r-[20px] md:rounded-r-[37px] overflow-hidden">
               <Image
-                src="/oklahoma-package.jpg"
+                src="/package-deals/EDN04431.webp"
                 alt="Oklahoma BBQ"
                 width={600}
                 height={400}
@@ -131,7 +131,7 @@ export default function CsomagajanlatokPage() {
             {/* Image on the right with gradient overlay */}
             <div className="absolute right-0 top-0 w-[35%] h-full z-0 rounded-r-[20px] md:rounded-r-[37px] overflow-hidden">
               <Image
-                src="/all-american-package.jpg"
+                src="/package-deals/EDN03535.webp"
                 alt="All American BBQ"
                 width={600}
                 height={400}
