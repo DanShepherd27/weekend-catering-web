@@ -1,9 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
+import { getGalleryImages } from "@/lib/gallery";
 
 export default function GaleriaPage() {
-  const images = Array.from({ length: 18 }, (_, i) => ({
-    src: `/gallery/gallery-${String(i + 1).padStart(2, "0")}.jpg`,
+  const galleryImages = getGalleryImages();
+
+  const images = galleryImages.map((filename, i) => ({
+    src: `/gallery/${filename}`,
     alt: `Galéria kép ${i + 1}`,
   }));
 
