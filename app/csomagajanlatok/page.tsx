@@ -56,7 +56,7 @@ export default function CsomagajanlatokPage() {
               <h2 className="text-[20px] md:text-[28px] lg:text-[34px] font-bold uppercase mb-4 leading-tight">
                 TEXAS - 15 000 Ft/Fő
               </h2>
-              <div className="text-[14px] md:text-[18px] lg:text-[20px] font-bold uppercase space-y-1 leading-relaxed">
+              <div className="text-[14px] md:text-[18px] lg:text-[20px] font-bold uppercase leading-relaxed">
                 <p>
                   Pulled Pork és választható BBQ fogás, körettel, salátával és
                   háromféle választható szósszal.
@@ -107,7 +107,7 @@ export default function CsomagajanlatokPage() {
               <h2 className="text-[20px] md:text-[28px] lg:text-[34px] font-bold uppercase mb-4 leading-tight">
                 Oklahoma - 17 000 Ft/Fő
               </h2>
-              <div className="text-[14px] md:text-[18px] lg:text-[20px] font-bold uppercase space-y-1 leading-relaxed">
+              <div className="text-[14px] md:text-[18px] lg:text-[20px] font-bold uppercase leading-relaxed">
                 <p>
                   Smash Burger és választható BBQ fogás, választható körettel,
                   salátával és háromféle
@@ -159,7 +159,7 @@ export default function CsomagajanlatokPage() {
               <h2 className="text-[20px] md:text-[28px] lg:text-[34px] font-bold uppercase mb-4 leading-tight">
                 All American - 18 500 Ft/Fő
               </h2>
-              <div className="text-[14px] md:text-[18px] lg:text-[20px] font-bold uppercase space-y-1 leading-relaxed">
+              <div className="text-[14px] md:text-[18px] lg:text-[20px] font-bold uppercase leading-relaxed">
                 <p>
                   Pulled Pork, Smash Burger és egy BBQ fogás, választható
                   körettel, salátával és ötféle szósszal.

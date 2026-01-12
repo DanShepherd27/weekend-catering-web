@@ -82,7 +82,7 @@ export default function HomePageContent() {
             <h2 className="text-[24px] md:text-[32px] font-bold uppercase mb-6 md:mb-8">
               hogy miért válassz minket?
             </h2>
-            <div className="text-[14px] md:text-[18px] font-bold uppercase space-y-2 leading-relaxed">
+            <div className="text-[14px] md:text-[18px] font-bold uppercase leading-relaxed">
               <p>
                 Sok év elteltével esküvőztetésben dolgozva, sok sok, rendezvényt
                 látva
@@ -112,7 +112,7 @@ export default function HomePageContent() {
             <h2 className="text-[24px] md:text-[32px] font-bold uppercase mb-4 md:mb-6">
               ÜDÍTŐK
             </h2>
-            <div className="text-[14px] md:text-[18px] font-bold uppercase leading-relaxed space-y-1">
+            <div className="text-[14px] md:text-[18px] font-bold uppercase leading-relaxed">
               <p>
                 Szeretjük a trendi megoldásokat, ezért üveges üdítőitalok
                 választékából
@@ -133,7 +133,7 @@ export default function HomePageContent() {
             <h2 className="text-[24px] md:text-[32px] font-bold uppercase mb-4 md:mb-6">
               Koktélok
             </h2>
-            <div className="text-[14px] md:text-[18px] font-bold uppercase leading-relaxed space-y-1">
+            <div className="text-[14px] md:text-[18px] font-bold uppercase leading-relaxed">
               <p>
                 A Koktélbár mint olyan, elkerülhetetlen egy igazán jó
                 hangulathoz,
@@ -154,7 +154,7 @@ export default function HomePageContent() {
             <h2 className="text-[24px] md:text-[32px] font-bold uppercase mb-6 md:mb-8">
               Tedd önazonossá rendezvényed!
             </h2>
-            <div className="text-[14px] md:text-[18px] font-bold uppercase leading-relaxed space-y-2">
+            <div className="text-[14px] md:text-[18px] font-bold uppercase leading-relaxed">
               <p>Dedikált poharat szeretnél, amit neked gyártunk le?</p>
               <p>
                 Erre is van lehetőséged. Miért jó? Mert tökéletes arra hogy
@@ -175,7 +175,7 @@ export default function HomePageContent() {
               <h2 className="text-[24px] md:text-[32px] font-bold uppercase mb-6 md:mb-8">
                 RÓLUNK
               </h2>
-              <div className="text-[14px] md:text-[18px] font-bold uppercase leading-relaxed space-y-2">
+              <div className="text-[14px] md:text-[18px] font-bold uppercase leading-relaxed">
                 <p>
                   Vasvári Atty vagyok! Feleségemmel Vasvári Lidivel vágtunk
                   bele,

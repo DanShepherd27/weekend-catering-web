@@ -27,7 +27,7 @@ export default function SmashBurgerPage() {
             <h2 className="text-[24px] md:text-[32px] lg:text-[40px] font-bold uppercase mb-6 md:mb-8 leading-tight">
               MI IS EZ PONTOSAN?
             </h2>
-            <div className="text-[14px] md:text-[18px] lg:text-[22px] font-bold uppercase space-y-2 leading-relaxed">
+            <div className="text-[14px] md:text-[18px] lg:text-[22px] font-bold uppercase leading-relaxed">
               <p>
                 100% MARHAHÚSBÓL KÉSZÜLT, FRISSEN LAPÍTOTT HÚSPOGÁCSA, AMI A
                 FORRÓ SÜTŐLAPON ELNYERI

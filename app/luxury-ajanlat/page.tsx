@@ -25,7 +25,7 @@ export default function LuxuryAjanlatPage() {
       <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
           <div className="bg-[#ff1100] rounded-[20px] md:rounded-[37px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
-            <div className="text-[14px] md:text-[18px] lg:text-[22px] font-bold uppercase space-y-4 leading-relaxed">
+            <div className="text-[14px] md:text-[18px] lg:text-[22px] font-bold uppercase leading-relaxed">
               <p>
                 Lehetőséget biztosítunk arra, hogy vállalata egyedi, személyre
                 szabott étel-, ital- és rendezvényszolgáltatásokat rendeljen

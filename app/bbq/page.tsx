@@ -27,7 +27,7 @@ export default function BBQPage() {
             <h2 className="text-[24px] md:text-[32px] lg:text-[40px] font-bold uppercase mb-6 md:mb-8 leading-tight">
               MI IS EZ PONTOSAN?
             </h2>
-            <div className="text-[14px] md:text-[18px] lg:text-[22px] font-bold uppercase space-y-2 leading-relaxed">
+            <div className="text-[14px] md:text-[18px] lg:text-[22px] font-bold uppercase leading-relaxed">
               <p>
                 A BBQ TÖBB FORMÁJÁT IS EL TUDJUK KÉSZÍTENI NEKTEK IGÉNYEITEK
                 SZERINT.
@@ -55,14 +55,16 @@ export default function BBQPage() {
             <h2 className="text-[24px] md:text-[32px] lg:text-[44px] font-bold uppercase mb-6 md:mb-8 leading-tight">
               VÁLASZTHATÓ HÚSOK:
             </h2>
-            <div className="text-[16px] md:text-[22px] lg:text-[28px] font-bold uppercase space-y-2 leading-tight">
-              <p>• MARHASZEGY (BRISKET)</p>
-              <p>• MARHAOLDALAS (BEEF RIBS)</p>
-              <p>• CSIRKECOMB (CHICKEN THIGHS)</p>
-              <p>• CSIRKESZÁRNY (CHICKEN WINGS)</p>
-              <p>• CSÁSZÁRHÚS (PORK BELLY)</p>
-              <p>• SERTÉSOLDALAS (PORK RIBS)</p>
-            </div>
+            <p className="text-[14px] md:text-[18px] lg:text-[20px] font-bold uppercase leading-relaxed space-y-1">
+              <ul className="list-disc list-inside">
+                <li>MARHASZEGY (BRISKET)</li>
+                <li>MARHAOLDALAS (BEEF RIBS)</li>
+                <li>CSIRKECOMB (CHICKEN THIGHS)</li>
+                <li>CSIRKESZÁRNY (CHICKEN WINGS)</li>
+                <li>CSÁSZÁRHÚS (PORK BELLY)</li>
+                <li>SERTÉSOLDALAS (PORK RIBS)</li>
+              </ul>
+            </p>
           </div>
         </div>
       </section>
