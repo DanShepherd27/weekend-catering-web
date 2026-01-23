@@ -80,21 +80,21 @@ export default function HomePageContent() {
         <div className="max-w-[1400px] mx-auto">
           <div className="bg-[#ff1100] rounded-[20px] md:rounded-[37px] shadow-lg overflow-hidden p-6 md:p-12 lg:p-16 text-white">
             <h2 className="text-[24px] md:text-[32px] font-bold uppercase mb-6 md:mb-8">
-              hogy miért válassz minket?
+              miért válassz minket?
             </h2>
             <div className="text-[14px] md:text-[18px] font-bold uppercase leading-relaxed">
               <p>
-                Sok év elteltével esküvőztetésben dolgozva, sok sok, rendezvényt
+                Sok év elteltével esküvőztetésben dolgozva, sok-sok rendezvényt
                 látva
               </p>
               <p>
-                és lebonyolítva, tudom, hogy neked is széleskörű szolgáltatást
+                és lebonyolítva tudom, hogy neked is széleskörű szolgáltatást
                 tudunk nyújtani.
               </p>
-              <p>Hiszünk a minőségben és abban hogy a kevesebb néha több.</p>
+              <p>Hiszünk a minőségben és abban, hogy a kevesebb néha több.</p>
               <p>
                 Ezért nyújtunk olyan szolgáltatást, ahol fókuszáltan tudunk a
-                rendezvényeteken,
+                rendezvényeteken
               </p>
               <p>
                 egy kifejezett Street Food ételt a lehető legmagasabb minőségben
@@ -134,10 +134,7 @@ export default function HomePageContent() {
               Koktélok
             </h2>
             <div className="text-[14px] md:text-[18px] font-bold uppercase leading-relaxed">
-              <p>
-                A Koktélbár mint olyan, elkerülhetetlen egy igazán jó
-                hangulathoz,
-              </p>
+              <p>A Koktélbár elkerülhetetlen az igazán jó hangulathoz,</p>
               <p>
                 Bartender kollégánk előre egyeztetett koktélokkal és
                 röviditalokkal készül.
@@ -157,7 +154,7 @@ export default function HomePageContent() {
             <div className="text-[14px] md:text-[18px] font-bold uppercase leading-relaxed">
               <p>Dedikált poharat szeretnél, amit neked gyártunk le?</p>
               <p>
-                Erre is van lehetőséged. Miért jó? Mert tökéletes arra hogy
+                Erre is van lehetőséged. Miért jó? Mert tökéletes arra, hogy
                 kifejezzétek
               </p>
               <p>önmagatokat és a rendezvény hangulatát.</p>
@@ -177,15 +174,17 @@ export default function HomePageContent() {
               </h2>
               <div className="text-[14px] md:text-[18px] font-bold uppercase leading-relaxed">
                 <p>
-                  Vasvári Atty vagyok! Feleségemmel Vasvári Lidivel vágtunk
-                  bele,
+                  Vasvári Atty vagyok! Feleségemmel, Vasvári Lidivel vágtunk
+                  bele
                 </p>
-                <p>ebbe a szuper világba amit Catering-nek hívnak!</p>
-                <p>A szívünkben mindig is benne volt, az emberek szeretete,</p>
+                <p>ebbe a szuper világba, amit Cateringnek hívnak!</p>
+                <p>A szívünkben mindig is benne volt az emberek szeretete</p>
                 <p>és az ételek, italok iránti szenvedély!</p>
-                <p>Hát arra jutottunk, hogy ötvözzük a kettőt,</p>
-                <p>hiszen annál jobb érzés nincs, amikor az emberek arcán</p>
-                <p>látjuk egy falat vagy korty után,</p>
+                <p>Így hát arra jutottunk, hogy ötvözzük a kettőt,</p>
+                <p>
+                  hiszen annál jobb érzés nincs, mint amikor az emberek arcán
+                </p>
+                <p>látjuk egy falat vagy korty után</p>
                 <p>az örömöt és az elégedettségét.</p>
               </div>
             </div>

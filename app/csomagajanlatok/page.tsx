@@ -58,7 +58,7 @@ export default function CsomagajanlatokPage() {
               </h2>
               <div className="text-[14px] md:text-[18px] lg:text-[20px] font-bold uppercase leading-relaxed">
                 <p>
-                  Pulled Pork és választható BBQ fogás, körettel, salátával és
+                  Pulled Pork és választható BBQ fogás körettel, salátával és
                   háromféle választható szósszal.
                 </p>
                 <p>
@@ -109,7 +109,7 @@ export default function CsomagajanlatokPage() {
               </h2>
               <div className="text-[14px] md:text-[18px] lg:text-[20px] font-bold uppercase leading-relaxed">
                 <p>
-                  Smash Burger és választható BBQ fogás, választható körettel,
+                  Smash Burger és választható BBQ fogás választható körettel,
                   salátával és háromféle
                 </p>
                 <p>választható szósszal.</p>
@@ -161,7 +161,7 @@ export default function CsomagajanlatokPage() {
               </h2>
               <div className="text-[14px] md:text-[18px] lg:text-[20px] font-bold uppercase leading-relaxed">
                 <p>
-                  Pulled Pork, Smash Burger és egy BBQ fogás, választható
+                  Pulled Pork, Smash Burger és egy BBQ fogás választható
                   körettel, salátával és ötféle szósszal.
                 </p>
                 <p>

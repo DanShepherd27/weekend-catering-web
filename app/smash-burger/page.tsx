@@ -42,7 +42,7 @@ export default function SmashBurgerPage() {
               </p>
               <p>
                 MINDEN FALATBAN OTT VAN AZ ÉDES, FÜSTÖS ÉS SÓS ÍZEK TÖKÉLETES
-                TALÁLKOZÁSA,
+                TALÁLKOZÁSA –
               </p>
               <p>EGY BURGER, AMIT NEM LEHET ELFELEJTENI.</p>
             </div>
@@ -58,7 +58,7 @@ export default function SmashBurgerPage() {
               KISÉRŐ KÖRETEK
             </h2>
             <p className="text-[14px] md:text-[18px] lg:text-[22px] font-bold uppercase leading-relaxed">
-              STEAK VAGY HASÁBBURGONYA KÖZÜL TUDTOK VÁLASZTANI.
+              STEAK- VAGY HASÁBBURGONYA KÖZÜL TUDTOK VÁLASZTANI.
             </p>
           </div>
         </div>
