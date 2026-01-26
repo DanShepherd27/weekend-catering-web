@@ -42,9 +42,8 @@ export default function SmashBurgerPage() {
               </p>
               <p>
                 MINDEN FALATBAN OTT VAN AZ ÉDES, FÜSTÖS ÉS SÓS ÍZEK TÖKÉLETES
-                TALÁLKOZÁSA –
+                TALÁLKOZÁSA.
               </p>
-              <p>EGY BURGER, AMIT NEM LEHET ELFELEJTENI.</p>
             </div>
           </div>
         </div>
