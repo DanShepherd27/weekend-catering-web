@@ -1,5 +1,11 @@
 "use client";
 
+/* Developer credits:
+  Az oldalt készítette: Juhász Dániel e.v. © 2026
+  https://www.danieljuhasz.hu
+  https://github.com/DanShepherd27
+*/
+
 import { ContactForm } from "@/components/ContactForm/ContactForm";
 import { MenuItem } from "@/components/MenuItem/MenuItem";
 import Image from "next/image";
@@ -11,6 +17,12 @@ export default function HomePageContent() {
       className="min-h-screen bg-white pb-[200px]"
       style={{ fontFamily: "Helvetica Neue, Arial, sans-serif" }}
     >
+      <div
+        dangerouslySetInnerHTML={{
+          __html:
+            "<!-- Developer credits: Az oldalt készítette: Juhász Dániel e.v. © 2026 — https://www.danieljuhasz.hu — https://github.com/DanShepherd27 -->",
+        }}
+      />
       {/* Party Types Section */}
       <section className="w-full py-6 md:py-8">
         <div className="max-w-[1400px] mx-auto">
